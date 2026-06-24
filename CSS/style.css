@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-color: #eef7ff; /* light blue background instead of grey */
+  color: #222;
+}
+
+/* Centers content */
+.wrapper {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Header gradient changed slightly */
+.header {
+  background: linear-gradient(135deg, #e4e9ff, #f8d7e3);
+  padding: 100px 0;
+}
+
+/* Gives color to name & keeps "Me"/"Work" inline */
+h1 span, h2 span {
+  display: inline;
+  color: #99D930;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.tagline {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+/* Image */
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Highlight class (for inline colored text) */
+.highlight {
+  color: #99D930;
+  font-size: 70px;
+}
+
+.part {
+  padding: 90px 0;
+}
+
+/* About & Articles sections */
+.about-me {
+  background-color: #F0F8FF; /* softer blue tone */
+}
+
+.articles {
+  background-color: #FFF5F7; /* pale pink for contrast */
+}
+
+/* Headings */
+h2 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* Smaller text */
+.small {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+/* Links */
+a {
+  color: #99D930;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #131313;
+}
+
+/* Footer */
+footer {
+  background-color: #d7d7d7;
+  padding: 25px 0;
+  font-size: 18px;
+}
